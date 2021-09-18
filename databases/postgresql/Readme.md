@@ -1,0 +1,11 @@
+- switch to this directory
+- docker compose up
+- Go to `http://localhost:9000/` (UI takes time to load)
+  - use `user@domain.com` and `SuperSecret` as creds
+- Set up server
+  - Click on `Add New server`
+  - Give a name in General ex: `Postgres`
+  - In Connection tab, give `db` as hostname
+  - Use `postgres` as password & `example` as credential 
+  - tick save password and click save.
+  - Your DB is ready 
